@@ -1,0 +1,15 @@
+@using dojo_survey.Models;
+@model Survey;
+
+
+<div class="card">
+    <div class="card-header bg-primary text-light text-center lead">Your Results</div>
+    <div class="card-body">
+        <p>Name: @Model.Name</p>
+        <p>Age: @Model.Age</p>
+        <p>Hometown: @Model.Hometown</p>
+        <p>Favorite Food: @Model.Food</p>
+        <p>Favorite Song: @Model.Song</p>
+        <p>Fun Fact: @Model.Funfact</p>
+    </div>
+</div>
